@@ -52,7 +52,7 @@ a{
 
 a:hover {
 	text-decoration:underline;
-	color:#603912;
+	color:orange;
 }
 
 .centralizarElementos{
@@ -66,12 +66,30 @@ a:hover {
 
 section{
     margin-top: 60px;
-    background-color: blue;
+    background-color: white;
+    clear: both;
+    height: auto;
 }
 
 .img1{
     margin: 10px;
-    height: 400px;
+    height: 25vw;
+    
+}
+#conteudoImagem{
+
+    width: 40%;
+    float: left;
+    
+}
+
+#conteudoTexto{
+    
+    width: 50%;
+    float: left;
+    margin-left: 5%;
+    margin-top: 2%;
+    text-align: justify;
     
 }
 
@@ -79,10 +97,11 @@ footer{
     background:  rgba(87,117,177,255);
     height: 30px;
     margin-top: 10px;
-    position: relative
+    position: relative;
+    clear: both;
 }
 
-h4{text-align: center;
+h5{text-align: center;
    color: white;
 }
 
